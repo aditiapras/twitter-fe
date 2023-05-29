@@ -13,8 +13,8 @@ import { IoNotificationsOutline } from "react-icons/io5";
 export default function Sidenav() {
   return (
     <>
-      <section className="flex flex-col w-1/4 pb-4 pr-4 border-r justify-between border-slate-600 min-h-screen">
-        <div className="flex flex-col  gap-3">
+      <section className="sticky top-0 bottom-0 flex flex-col w-1/4 pb-4 pr-4 border-r justify-between border-slate-600 max-h-screen">
+        <div className="flex flex-col gap-3">
           <Link
             href=""
             className="flex rounded-full hover:bg-slate-700 w-12 h-12 items-center justify-center"
