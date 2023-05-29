@@ -1,8 +1,6 @@
 import Sidenav from "@/components/navigation/sidenav";
 import Rightbar from "@/components/sidebar/rightbar";
-import ProfNavbar from "@/components/profile/profNavbar";
-import UserProfile from "@/components/profile/userProfile";
-import TimeNavbar from "@/components/timeline/tNavbar";
+import TimeNavbar from "@/components/navigation/tNavbar";
 
 export default function ProfileLayout({ children }) {
   return (
@@ -12,8 +10,6 @@ export default function ProfileLayout({ children }) {
           <Sidenav />
           <div className="flex flex-col w-1/2 min-h-screen">
             <TimeNavbar />
-            <UserProfile />
-            <ProfNavbar />
             {children}
           </div>
           <Rightbar />

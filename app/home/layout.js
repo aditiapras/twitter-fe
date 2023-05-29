@@ -1,6 +1,6 @@
 import Sidenav from "@/components/navigation/sidenav";
 import Rightbar from "@/components/sidebar/rightbar";
-import TimeNavbar from "@/components/timeline/tNavbar";
+import TimeNavbar from "@/components/navigation/tNavbar";
 import CreateTweet from "@/components/timeline/createTweet";
 
 export default function HomeLayout({ children }) {

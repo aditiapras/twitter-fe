@@ -1,7 +1,7 @@
 import Sidenav from "@/components/navigation/sidenav";
 import Timeline from "@/components/timeline/timeline";
 import Rightbar from "@/components/sidebar/rightbar";
-import TimeNavbar from "@/components/timeline/tNavbar";
+import TimeNavbar from "@/components/navigation/tNavbar";
 import CreateTweets from "@/components/timeline/createTweet";
 
 export default function Home() {

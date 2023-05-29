@@ -3,6 +3,7 @@ import { TbMessageCircle2 } from "react-icons/tb";
 import { AiOutlineRetweet } from "react-icons/ai";
 import { HiOutlineHeart } from "react-icons/hi";
 import { FiShare } from "react-icons/fi";
+import Link from "next/link";
 
 export default function UserTweet() {
   return (
@@ -28,19 +29,21 @@ export default function UserTweet() {
               </div>
             </div>
             {/* end of twitter name head */}
-            <div>
-              <h1 className="text-white">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Quaerat error nulla iure, voluptates vel non vero laboriosam
-                asperiores eligendi, alias saepe assumenda quos in et iste
-                laudantium pariatur quo? Quidem maiores sed facilis eius, iste
-                exercitationem modi. Vel, illo perferendis libero possimus
-                facilis necessitatibus odio recusandae, sequi harum minus totam
-                maxime at fugiat quidem eaque excepturi ducimus sunt aliquam
-                dolorem. Totam eum id officia reiciendis placeat ipsa earum a
-                fugiat?
-              </h1>
-            </div>
+            <Link href="/profile/status/123">
+              <div>
+                <h1 className="text-white">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quaerat error nulla iure, voluptates vel non vero laboriosam
+                  asperiores eligendi, alias saepe assumenda quos in et iste
+                  laudantium pariatur quo? Quidem maiores sed facilis eius, iste
+                  exercitationem modi. Vel, illo perferendis libero possimus
+                  facilis necessitatibus odio recusandae, sequi harum minus
+                  totam maxime at fugiat quidem eaque excepturi ducimus sunt
+                  aliquam dolorem. Totam eum id officia reiciendis placeat ipsa
+                  earum a fugiat?
+                </h1>
+              </div>
+            </Link>
             {/* end of tweet container */}
 
             {/* start of tweet action button */}

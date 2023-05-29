@@ -1,4 +1,4 @@
-import TimeNavbar from "./tNavbar";
+import TimeNavbar from "../navigation/tNavbar";
 import CreateTweets from "./createTweet";
 import UserTweet from "./usrTweet";
 

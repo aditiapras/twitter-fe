@@ -1,11 +1,8 @@
 import UserTweet from "@/components/timeline/usrTweet";
 
-export default function Homepage() {
+export default function StatusPage() {
   return (
     <>
-      <UserTweet />
-      <UserTweet />
-      <UserTweet />
       <UserTweet />
     </>
   );
