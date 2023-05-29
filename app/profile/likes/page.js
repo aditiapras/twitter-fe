@@ -1,9 +1,8 @@
 import UserTweet from "@/components/timeline/usrTweet";
 
-export default function Homepage() {
+export default function Likes() {
   return (
     <>
-      <UserTweet />
       <UserTweet />
       <UserTweet />
       <UserTweet />

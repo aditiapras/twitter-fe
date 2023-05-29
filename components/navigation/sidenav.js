@@ -13,7 +13,7 @@ import { IoNotificationsOutline } from "react-icons/io5";
 export default function Sidenav() {
   return (
     <>
-      <section className="sticky top-0 bottom-0 flex flex-col w-1/4 pb-4 pr-4 border-r justify-between border-slate-600 max-h-screen">
+      <section className="sticky top-0 bottom-0 flex flex-col w-1/5 pb-4 pr-4 border-r justify-between border-slate-600 max-h-screen">
         <div className="flex flex-col gap-3">
           <Link
             href=""
@@ -22,7 +22,7 @@ export default function Sidenav() {
             <BsTwitter className="text-3xl text-white"></BsTwitter>
           </Link>
           <Link
-            href=""
+            href="/home"
             className="flex gap-3 items-center px-3 py-2 rounded-full hover:bg-slate-700 w-32"
           >
             <RiHome7Fill className="text-white text-3xl"></RiHome7Fill>
@@ -64,7 +64,7 @@ export default function Sidenav() {
             <h1 className="text-white  text-xl">Bookmarks</h1>
           </Link>
           <Link
-            href=""
+            href="/profile"
             className="flex gap-3 items-center px-3 py-2 rounded-full hover:bg-slate-700 w-32"
           >
             <RiUserLine className="text-white text-3xl"></RiUserLine>
@@ -86,10 +86,12 @@ export default function Sidenav() {
         </div>
         <div className="flex flex-row justify-between items-center py-2 hover:bg-slate-700 px-3 rounded-full">
           <div className="flex gap-3 items-center">
-            <h1 className="text-white w-8 h-8 bg-white rounded-full"></h1>
+            <h1 className="text-white w-10 h-10 bg-white rounded-full"></h1>
             <div className="flex flex-col">
-              <h1 className="text-white">Aditia Prasetian</h1>
-              <h1 className="text-white text-sm text-slate-400">@aditiapras</h1>
+              <h1 className="text-white font-semibold">Aditia Prasetian</h1>
+              <h1 className="text-slate-500 text-sm text-slate-400">
+                @aditiapras
+              </h1>
             </div>
           </div>
           <RiMoreFill className="text-white"></RiMoreFill>
