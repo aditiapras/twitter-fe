@@ -12,7 +12,7 @@ export default function Home() {
     <div className="w-full min-h-screen bg-slate-900">
       <div className="w-2/3 flex mx-auto">
         <Sidenav />
-        <section className="w-1/2">
+        <section className="w-1/2 min-h-screen">
           {/* navigation home */}
           <div className="sticky top-0 p-3 h-24 border-b border-slate-600 bg-slate-900/70 backdrop-blur-md">
             <h1 className="text-white text-xl">Home</h1>
@@ -134,16 +134,29 @@ export default function Home() {
           {/* end of peoples tweet */}
         </section>
         {/*  */}
-        <section className="flex flex-col w-1/4 pt-2 border-l pl-5 border-slate-600 min-h-screen">
-          <div className="sticky top-0 bottom-0 h-12 w-full bg-slate-900">
+        <section className="flex flex-col pl-4 border-l  border-slate-600 w-1/4 gap-5">
+          <div className="sticky top-0 flex h-14 w-full bg-slate-900">
             <input
               type="text"
-              className="bg-slate-600 rounded-full outline-none border-none text-white py-2 px-5"
+              className="bg-slate-600 mt-2 mb-2 rounded-full outline-none border-none text-white py-2 px-5"
               placeholder="Search Twitter"
             />
           </div>
           <div className="bg-slate-800 rounded-xl w-full p-3 flex flex-col gap-5">
             <h1 className="text-xl font-bold text-white">Trends for you</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
+            <h1 className="text-white">Card</h1>
             <h1 className="text-white">Card</h1>
             <h1 className="text-white">Card</h1>
             <h1 className="text-white">Card</h1>
