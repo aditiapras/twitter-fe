@@ -1,9 +1,11 @@
+"use client";
 import { BiImage } from "react-icons/bi";
 import { RiFileGifLine } from "react-icons/ri";
 import { TbListDetails } from "react-icons/tb";
 import { BsEmojiSmile } from "react-icons/bs";
 import { AiOutlineSchedule } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
+import TextareaAutosize from "react-textarea-autosize";
 
 export default function CreateTweets() {
   return (
@@ -17,10 +19,13 @@ export default function CreateTweets() {
 
         {/* start of tweet section form */}
         <div className="flex flex-col gap-2 text-slate-500 w-full">
-          <textarea
+          <TextareaAutosize
             placeholder="What is happening?!"
-            className="outline-none bg-transparent text-white text-xl resize-none"
-          ></textarea>
+            className="p-3 outline-none resize-none bg-transparent text-white text-xl"
+            onClick={() => {
+              console.log("clicked");
+            }}
+          />
           <div className="flex w-full justify-between items-center">
             <div className="flex gap-3 items-center">
               <BiImage className="text-sky-500 text-xl"></BiImage>
