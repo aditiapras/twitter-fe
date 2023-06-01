@@ -4,6 +4,8 @@ module.exports = {
   darkMode: "class",
 
   content: [
+    "./node_modules/flowbite-react/**/*.js",
+    "./node_modules/flowbite/**/*.js",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -21,5 +23,6 @@ module.exports = {
     require("@tailwindcss/forms")({
       strategy: "class", // only generate classes
     }),
+    require("flowbite/plugin"),
   ],
 };
