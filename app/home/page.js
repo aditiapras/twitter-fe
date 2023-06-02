@@ -1,13 +1,8 @@
-import UserTweet from "@/components/timeline/usrTweet";
+import UserTweet from "@/components/timeline/userTweet";
 
 export default function Homepage() {
   return (
     <>
-      <UserTweet />
-      <UserTweet />
-      <UserTweet />
-      <UserTweet />
-      <UserTweet />
       <UserTweet />
     </>
   );

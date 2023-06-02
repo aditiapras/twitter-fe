@@ -13,31 +13,31 @@ import { IoNotificationsOutline } from "react-icons/io5";
 export default function Sidenav() {
   return (
     <>
-      <section className="sticky top-0 bottom-0 flex flex-col w-24 lg:w-1/5 pb-4 pt-2 px-2 md:px-5 lg:px-4 border-r justify-between border-slate-600 max-h-screen">
-        <div className="flex flex-col gap-3">
+      <section className="sticky top-0 bottom-0 flex flex-col lg:w-1/5 pb-4 pt-2 px-2 lg:px-4 border-r justify-between border-slate-600 max-h-screen">
+        <div className="flex flex-col gap-3 mx-auto">
           <Link
             href="/home"
-            className="flex rounded-full hover:bg-slate-800 items-center justify-center w-12 h-12"
+            className="flex rounded-full hover:bg-slate-800 items-center justify-center w-12 h-12 mx-auto lg:mx-0"
           >
             <BsTwitter className="text-3xl text-white"></BsTwitter>
           </Link>
           <Link
             href="/home"
-            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800 mx-auto lg:mx-0"
           >
             <RiHome7Fill className="text-white text-3xl"></RiHome7Fill>
             <h1 className="hidden lg:block text-white text-xl">Home</h1>
           </Link>
           <Link
             href=""
-            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-36 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-36 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800 mx-auto lg:mx-0"
           >
             <RiHashtag className="text-white text-3xl"></RiHashtag>
             <h1 className="hidden lg:block text-white  text-xl">Explore</h1>
           </Link>
           <Link
             href=""
-            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-52 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-52 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800 mx-auto lg:mx-0"
           >
             <IoNotificationsOutline className="text-white text-3xl"></IoNotificationsOutline>
             <h1 className="hidden lg:block text-white  text-xl">
@@ -46,45 +46,43 @@ export default function Sidenav() {
           </Link>
           <Link
             href=""
-            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-40 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-40 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800 mx-auto lg:mx-0"
           >
             <RiMailLine className="text-white text-3xl"></RiMailLine>
             <h1 className="hidden lg:block text-white  text-xl">Message</h1>
           </Link>
           <Link
             href=""
-            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800 mx-auto lg:mx-0"
           >
             <RiFileListLine className="text-white text-3xl"></RiFileListLine>
             <h1 className="hidden lg:block text-white  text-xl">Lists</h1>
           </Link>
           <Link
             href=""
-            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-44 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-44 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800 mx-auto lg:mx-0"
           >
             <RiBookmarkLine className="text-white text-3xl"></RiBookmarkLine>
             <h1 className="hidden lg:block text-white  text-xl">Bookmarks</h1>
           </Link>
           <Link
             href="/profile"
-            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800 mx-auto lg:mx-0"
           >
             <RiUserLine className="text-white text-3xl"></RiUserLine>
             <h1 className="hidden lg:block text-white  text-xl">Profile</h1>
           </Link>
           <Link
             href=""
-            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800 mx-auto lg:mx-0"
           >
             <CgMoreO className="text-white text-3xl"></CgMoreO>
             <h1 className="hidden lg:block text-white  text-xl">More</h1>
           </Link>
-          <Link
-            href=""
-            className="flex lg:px-3 lg:py-3 rounded-full bg-sky-500 hover:bg-sky-500/80 lg:w-full items-center justify-center w-14 h-14"
-          >
-            <button className="text-white">Tweet</button>
-          </Link>
+
+          <button className="flex lg:px-3 lg:py-3 rounded-full bg-sky-500 hover:bg-sky-500/80 lg:w-full items-center justify-center w-14 h-14 text-white">
+            Tweet
+          </button>
         </div>
         <div className="flex flex-row lg:justify-between justify-center items-center py-2 hover:bg-slate-700 lg:px-3 rounded-full">
           <div className="flex gap-3 items-center">

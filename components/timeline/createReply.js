@@ -16,7 +16,7 @@ export default function CreateReply() {
           </h1>
           <TextareaAutosize
             placeholder="Tweet your reply!"
-            className="outline-none resize-none bg-transparent text-white text-xl w-full"
+            className="outline-none resize-none bg-transparent text-white text-xl w-full border-none"
             onClick={() => {
               setOption(true);
               console.log(option);

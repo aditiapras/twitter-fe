@@ -6,7 +6,7 @@ export default function ProfileLayout({ children }) {
   return (
     <>
       <div className="w-full min-h-screen bg-slate-900">
-        <div className="w-full lg:w-2/3 flex mx-auto">
+        <div className="md:w-4/5 lg:w-2/3 flex md:mx-auto lg:mx-auto md:border-r md:border-slate-600">
           <Sidenav />
           <div className="flex flex-col w-full lg:w-1/2 min-h-screen">
             <TimeNavbar />

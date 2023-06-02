@@ -21,7 +21,7 @@ export default function CreateTweets() {
         <div className="flex flex-col gap-2 text-slate-500 w-full">
           <TextareaAutosize
             placeholder="What is happening?!"
-            className="p-3 outline-none resize-none bg-transparent text-white text-xl"
+            className="p-3 outline-none border-none focus:ring-0 resize-none bg-transparent text-white text-xl"
             onClick={() => {
               console.log("clicked");
             }}
@@ -35,7 +35,10 @@ export default function CreateTweets() {
               <AiOutlineSchedule className="text-sky-500 text-xl"></AiOutlineSchedule>
               <IoLocationOutline className="text-sky-500 text-xl"></IoLocationOutline>
             </div>
-            <button className="bg-sky-500 hover:bg-sky-500/80 px-4 py-2 rounded-full text-white">
+            <button
+              className="disabled:opacity-70 disabled:hover:bg-sky-500 bg-sky-500 hover:bg-sky-500/80 px-4 py-2 rounded-full text-white"
+              disabled
+            >
               Tweet
             </button>
           </div>
