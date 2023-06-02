@@ -7,11 +7,11 @@ export default function HomeLayout({ children }) {
   return (
     <>
       <div className="w-full min-h-screen bg-slate-900">
-        <div className="w-2/3 flex mx-auto">
+        <div className="lg:w-2/3 flex lg:mx-auto">
           <Sidenav />
-          <div className="flex flex-col w-1/2 min-h-screen">
+          <div className="flex flex-col lg:w-1/2 min-h-screen">
             <TimeNavbar />
-            <CreateTweet />
+            {/* <CreateTweet /> */}
             {children}
           </div>
           <Rightbar />

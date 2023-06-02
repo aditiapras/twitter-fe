@@ -7,7 +7,7 @@ export default function Profile() {
     <>
       <UserProfile />
       <ProfNavbar />
-      <UserTweet />
+      {/* <UserTweet /> */}
     </>
   );
 }

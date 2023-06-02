@@ -13,88 +13,90 @@ import { IoNotificationsOutline } from "react-icons/io5";
 export default function Sidenav() {
   return (
     <>
-      <section className="sticky top-0 bottom-0 flex flex-col w-1/5 pb-4 pr-4 border-r justify-between border-slate-600 max-h-screen">
+      <section className="sticky top-0 bottom-0 flex flex-col w-24 lg:w-1/5 pb-4 pt-2 px-2 md:px-5 lg:px-4 border-r justify-between border-slate-600 max-h-screen">
         <div className="flex flex-col gap-3">
           <Link
-            href=""
-            className="flex rounded-full hover:bg-slate-700 w-12 h-12 items-center justify-center"
+            href="/home"
+            className="flex rounded-full hover:bg-slate-800 items-center justify-center w-12 h-12"
           >
             <BsTwitter className="text-3xl text-white"></BsTwitter>
           </Link>
           <Link
             href="/home"
-            className="flex gap-3 items-center px-3 py-2 rounded-full hover:bg-slate-700 w-32"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
           >
             <RiHome7Fill className="text-white text-3xl"></RiHome7Fill>
-            <h1 className="text-white text-xl">Home</h1>
+            <h1 className="hidden lg:block text-white text-xl">Home</h1>
           </Link>
           <Link
             href=""
-            className="flex gap-3 items-center px-3 py-2 rounded-full hover:bg-slate-700 w-36"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-36 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
           >
             <RiHashtag className="text-white text-3xl"></RiHashtag>
-            <h1 className="text-white  text-xl">Explore</h1>
+            <h1 className="hidden lg:block text-white  text-xl">Explore</h1>
           </Link>
           <Link
             href=""
-            className="flex gap-3 items-center px-3 py-2 rounded-full hover:bg-slate-700 w-52"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-52 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
           >
             <IoNotificationsOutline className="text-white text-3xl"></IoNotificationsOutline>
-            <h1 className="text-white  text-xl">Notifications</h1>
+            <h1 className="hidden lg:block text-white  text-xl">
+              Notifications
+            </h1>
           </Link>
           <Link
             href=""
-            className="flex gap-3 items-center px-3 py-2 rounded-full hover:bg-slate-700 w-40"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-40 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
           >
             <RiMailLine className="text-white text-3xl"></RiMailLine>
-            <h1 className="text-white  text-xl">Message</h1>
+            <h1 className="hidden lg:block text-white  text-xl">Message</h1>
           </Link>
           <Link
             href=""
-            className="flex gap-3 items-center px-3 py-2 rounded-full hover:bg-slate-700 w-32"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
           >
             <RiFileListLine className="text-white text-3xl"></RiFileListLine>
-            <h1 className="text-white  text-xl">Lists</h1>
+            <h1 className="hidden lg:block text-white  text-xl">Lists</h1>
           </Link>
           <Link
             href=""
-            className="flex gap-3 items-center px-3 py-2 rounded-full hover:bg-slate-700 w-44"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-44 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
           >
             <RiBookmarkLine className="text-white text-3xl"></RiBookmarkLine>
-            <h1 className="text-white  text-xl">Bookmarks</h1>
+            <h1 className="hidden lg:block text-white  text-xl">Bookmarks</h1>
           </Link>
           <Link
             href="/profile"
-            className="flex gap-3 items-center px-3 py-2 rounded-full hover:bg-slate-700 w-32"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
           >
             <RiUserLine className="text-white text-3xl"></RiUserLine>
-            <h1 className="text-white  text-xl">Profile</h1>
+            <h1 className="hidden lg:block text-white  text-xl">Profile</h1>
           </Link>
           <Link
             href=""
-            className="flex gap-3 items-center px-3 py-2 rounded-full hover:bg-slate-700 w-32"
+            className="flex lg:gap-3 justify-center lg:justify-start items-center w-12 h-12 lg:w-32 lg:px-3 lg:py-2 rounded-full hover:bg-slate-800"
           >
             <CgMoreO className="text-white text-3xl"></CgMoreO>
-            <h1 className="text-white  text-xl">More</h1>
+            <h1 className="hidden lg:block text-white  text-xl">More</h1>
           </Link>
           <Link
             href=""
-            className="flex px-3 py-3 rounded-full bg-sky-500 hover:bg-sky-500/80 w-full items-center justify-center"
+            className="flex lg:px-3 lg:py-3 rounded-full bg-sky-500 hover:bg-sky-500/80 lg:w-full items-center justify-center w-14 h-14"
           >
             <button className="text-white">Tweet</button>
           </Link>
         </div>
-        <div className="flex flex-row justify-between items-center py-2 hover:bg-slate-700 px-3 rounded-full">
+        <div className="flex flex-row lg:justify-between justify-center items-center py-2 hover:bg-slate-700 lg:px-3 rounded-full">
           <div className="flex gap-3 items-center">
             <h1 className="text-white w-10 h-10 bg-white rounded-full"></h1>
-            <div className="flex flex-col">
+            <div className="flex flex-col hidden lg:block">
               <h1 className="text-white font-semibold">Aditia Prasetian</h1>
               <h1 className="text-slate-500 text-sm text-slate-400">
                 @aditiapras
               </h1>
             </div>
           </div>
-          <RiMoreFill className="text-white"></RiMoreFill>
+          <RiMoreFill className="text-white hidden lg:block"></RiMoreFill>
         </div>
       </section>
     </>

@@ -29,7 +29,7 @@ export default function UserTweet() {
               </div>
             </div>
             {/* end of twitter name head */}
-            <Link href="/profile/status/123">
+            <Link href="/profile/status/123" className="w-full">
               <div>
                 <h1 className="text-white">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -47,7 +47,7 @@ export default function UserTweet() {
             {/* end of tweet container */}
 
             {/* start of tweet action button */}
-            <div className="flex gap-16 items-center">
+            <div className="flex w-full gap-16 items-center">
               {/* reply component */}
               <div className="group flex gap-2 items-center">
                 <div className="flex w-8 h-8 rounded-full group-hover:bg-slate-700 items-center justify-center">

@@ -2,7 +2,7 @@ import { RiMoreFill } from "react-icons/ri";
 export default function Rightbar() {
   return (
     <>
-      <section className="flex flex-col pl-4 pb-4 border-l  border-slate-600 w-1/4 gap-5">
+      <section className="flex flex-col pl-4 pb-4 border-l border-slate-600 w-1/4 lg:gap-5 hidden lg:block">
         {/* search bar */}
         <div className="sticky top-0 flex h-14 w-full bg-slate-900">
           <input
@@ -14,8 +14,8 @@ export default function Rightbar() {
         {/* end of search bar */}
 
         {/* Trending */}
-        <div className="bg-slate-800 rounded-xl w-full py-3 flex flex-col gap-5">
-          <div className="px-5">
+        <div className="bg-slate-800 rounded-xl w-full py-3 flex flex-col">
+          <div className="px-5 mb-5">
             <h1 className="text-xl font-bold text-white">Trends for you</h1>
           </div>
           <div className="flex flex-col gap-1 w-full px-5 py-2 hover:bg-slate-700">
@@ -34,8 +34,8 @@ export default function Rightbar() {
         </div>
         {/* end of trending */}
         {/* follow suggestion */}
-        <div className="bg-slate-800 rounded-xl w-full py-3 flex flex-col gap-5">
-          <div className="px-5">
+        <div className="bg-slate-800 rounded-xl w-full py-3 flex flex-col mt-5">
+          <div className="px-5 mb-5">
             <h1 className="text-xl font-bold text-white">Who to follow</h1>
           </div>
           <div className="flex flex-col gap-1 w-full px-5 py-2 hover:bg-slate-700">

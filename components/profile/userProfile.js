@@ -23,15 +23,15 @@ export default function UserProfile() {
           <div>
             <h1 className="text-white text-sm">this is my bio.</h1>
           </div>
-          <div className="flex gap-5">
-            <h1 className="text-slate-500 text-sm">
+          <div className="flex flex-wrap gap-5">
+            <h1 className="text-slate-500 text-xs md:text-sm lg:text-sm">
               {" "}
               <span className="inline-flex items-baseline">
                 <IoLocationOutline />
               </span>{" "}
               Bandung, Indonesia
             </h1>
-            <h1 className="text-slate-500 text-sm">
+            <h1 className="text-slate-500 text-xs md:text-sm lg:text-sm">
               {" "}
               <span className="inline-flex items-baseline">
                 <IoIosLink />
@@ -44,7 +44,7 @@ export default function UserProfile() {
                 aditiapras.dev
               </a>
             </h1>
-            <h1 className="text-slate-500 text-sm">
+            <h1 className="text-slate-500 text-xs md:text-sm lg:text-sm">
               {" "}
               <span className="inline-flex items-baseline">
                 <IoCalendarOutline />
